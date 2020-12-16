@@ -1,0 +1,21 @@
+.registered{
+    background-color: lightgreen;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    display: block;
+}
+
+.notRegistered{
+    background-color: lightcoral;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    display: block;
+}
+.initialPage{
+
+   display: none;
+}

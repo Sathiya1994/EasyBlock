@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'easyBlock';
+  title = 'easy-block';
+  message:boolean=false ;
+  showRegisteration :boolean=true;
+
+  receiveMessage($event: boolean) {
+    console.log('event emmited');
+    this.message = true;
+    this.showRegisteration=false;
+  }
 }
